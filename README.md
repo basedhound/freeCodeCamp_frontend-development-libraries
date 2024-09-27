@@ -147,74 +147,45 @@ Ensuite, vous développerez un panier d'achat et d'autres applications pour comp
 
 ```
 01. Create a Redux Store  
-02. Not Passed  
-03. Get State from the Redux Store  
-04. Not Passed  
-05. Define a Redux Action  
-06. Not Passed  
-07. Define an Action Creator  
-08. Not Passed  
-09. Dispatch an Action Event  
-10. Not Passed  
-11. Handle an Action in the Store  
-12. Not Passed  
-13. Use a Switch Statement to Handle Multiple Actions  
-14. Not Passed  
-15. Use const for Action Types  
-16. Not Passed  
-17. Register a Store Listener  
-18. Not Passed  
-19. Combine Multiple Reducers  
-20. Not Passed  
-21. Send Action Data to the Store  
-22. Not Passed  
-23. Use Middleware to Handle Asynchronous Actions  
-24. Not Passed  
-25. Write a Counter with Redux  
-26. Not Passed  
-27. Never Mutate State  
-28. Not Passed  
-29. Use the Spread Operator on Arrays  
-30. Not Passed  
-31. Remove an Item from an Array  
-32. Not Passed  
-33. Copy an Object with Object.assign
+02. Get State from the Redux Store  
+03. Define a Redux Action  
+04. Define an Action Creator  
+05. Dispatch an Action Event  
+06. Handle an Action in the Store  
+07. Use a Switch Statement to Handle Multiple Actions  
+08. Use const for Action Types  
+09. Register a Store Listener  
+10. Combine Multiple Reducers  
+11. Send Action Data to the Store  
+12. Use Middleware to Handle Asynchronous Actions  
+13. Write a Counter with Redux  
+14. Never Mutate State  
+15. Use the Spread Operator on Arrays  
+16. Remove an Item from an Array  
+17. Copy an Object with Object.assign 
 ```
 
 ### React + Redux
 
 ```
 01. Getting Started with React Redux  
-02. Not Passed  
-03. Manage State Locally First  
-04. Not Passed  
-05. Extract State Logic to Redux  
-06. Not Passed  
-07. Use Provider to Connect Redux to React  
-08. Not Passed  
-09. Map State to Props  
-10. Not Passed  
-11. Map Dispatch to Props  
-12. Not Passed  
-13. Connect Redux to React  
-14. Not Passed  
-15. Connect Redux to the Messages App  
-16. Not Passed  
-17. Extract Local State into Redux  
-18. Not Passed  
-19. Moving Forward From Here  
+02. Manage State Locally First  
+03. Extract State Logic to Redux  
+04. Use Provider to Connect Redux to React  
+05. Map State to Props  
+06. Map Dispatch to Props  
+07. Connect Redux to React  
+08. Connect Redux to the Messages App  
+09. Extract Local State into Redux  
+10. Moving Forward From Here 
 ```
 
 ### Projects 🎓 
 
 ```
-1. Build a Random Quote Machine  
-2. Not Passed  
-3. Build a Markdown Previewer  
-4. Not Passed  
-5. Build a Drum Machine  
-6. Not Passed  
-7. Build a JavaScript Calculator  
-8. Not Passed  
-9. Build a 25 + 5 Clock  
+01. Build a Random Quote Machine  
+02. Build a Markdown Previewer  
+03. Build a Drum Machine  
+04. Build a JavaScript Calculator  
+05. Build a 25 + 5 Clock  
 ```

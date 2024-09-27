@@ -10,11 +10,11 @@ Later, you'll build a shopping cart and other applications to learn how to creat
 
 ---
 
-`[FR]` "Maintenant que vous maîtrisez HTML, CSS et JavaScript, passez à la vitesse supérieure en apprenant quelques-unes des bibliothèques front-end les plus populaires du secteur.
+`[FR]` Maintenant que vous maîtrisez HTML, CSS et JavaScript, passez à la vitesse supérieure en apprenant quelques-unes des bibliothèques front-end les plus populaires du secteur.
 
 Dans la certification 'Front End Development Libraries', vous découvrirez comment styliser rapidement votre site avec Bootstrap. Vous apprendrez également à ajouter de la logique à vos styles CSS et à les étendre avec Sass.
 
-Ensuite, vous développerez un panier d'achat et d'autres applications pour comprendre comment créer des applications monopages (SPA) puissantes avec React et Redux."
+Ensuite, vous développerez un panier d'achat et d'autres applications pour comprendre comment créer des applications monopages (SPA) puissantes avec React et Redux.
 
 ---
 

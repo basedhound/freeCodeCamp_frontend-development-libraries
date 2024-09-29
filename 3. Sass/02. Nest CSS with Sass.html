@@ -1,0 +1,66 @@
+<!-- Nest CSS with Sass -> https://www.freecodecamp.org/learn/front-end-development-libraries/sass/nest-css-with-sass
+
+Sass allows nesting of CSS rules, which is a useful way of organizing a style sheet.
+
+Normally, each element is targeted on a different line to style it, like so:
+
+article {
+  height: 200px;
+}
+
+article p {
+  color: white;
+}
+
+article ul {
+  color: blue;
+}
+
+
+For a large project, the CSS file will have many lines and rules. This is where nesting can help organize your code by placing child style rules within the respective parent elements:
+
+article {
+  height: 200px;
+
+  p {
+    color: white;
+  }
+
+  ul {
+    color: blue;
+  }
+}
+
+Use the nesting technique shown above to re-organize the CSS rules for both children of .blog-post element. For testing purposes, the h1 should come before the p element.
+
+1. Your code should re-organize the CSS rules so the h1 and p are nested in the .blog-post parent element.
+
+Problem Explanation
+In Sass, nesting CSS rules allows to define hierarchy selectors.
+You can organize your style sheets by nesting CSS rules.
+Example:
+
+.title{
+  strong{}
+  em{}
+}
+
+// This will be compiled into:
+
+.title{}
+.title strong{}
+.title em{}
+
+Hint 1 -> You may want to change the position of “}” at line 4. -->
+
+<style type='text/sass'>
+  .blog-post { 
+    h1 {
+     text-align: center;
+     color: blue;
+    }
+    p {
+        font-size: 20px;
+    } 
+  }  
+</style>

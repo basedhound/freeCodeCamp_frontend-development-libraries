@@ -1,0 +1,98 @@
+<!-- Create Reusable CSS with Mixins -> https://www.freecodecamp.org/learn/front-end-development-libraries/sass/create-reusable-css-with-mixins
+
+In Sass, a mixin is a group of CSS declarations that can be reused throughout the style sheet. The definition starts with the @mixin at-rule, followed by a custom name. You apply the mixin using the @include at-rule.
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul {
+  @include reset-list;
+}
+Compiles to:
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+Your mixins can also take arguments, which allows their behavior to be customized. The arguments are required when using the mixin.
+
+@mixin prose($font-size, $spacing) {
+  font-size: $font-size;
+  margin: 0;
+  margin-block-end: $spacing;
+}
+
+p {
+  @include prose(1.25rem, 1rem);
+}
+
+h2 {
+  @include prose(2.4rem, 1.5rem);
+}
+You can make arguments optional by giving the parameters default values.
+
+@mixin text-color($color: black) {
+  color: $color;
+}
+
+p {
+  @include text-color(); /* color: black */
+}
+
+nav a {
+  @include text-color(orange);
+}
+Write a mixin named shape and give it 3 parameters: $w, $h, and $bg-color.
+
+Use the shape mixin to give the #square element a width and height of 50px, and the background color red. For the #rect-a element add a width of 100px, a height of 50px, and the background color blue. Finally, for the #rect-b element add a width of 50px, a height of 100px, and the background color orange.
+
+1. You should declare a mixin named shape with 3 parameters: $w, $h, and $bg-color.
+2. Your mixin should include a width property that uses the $w parameter.
+3. Your mixin should include a height property that uses the $h parameter.
+4. Your mixin should include a background-color property that uses the $bg-color parameter.
+5. You should replace the styles inside the #square selector with a call to the shape mixin using the @include keyword. Setting a width and height of 50px, and the background color red.
+6. You should replace the styles inside the #rect-a selector with a call to the shape mixin using the @include keyword. Setting a width of 100px, a height of 50px, and the background color blue.
+7. You should replace the styles inside the #rect-b selector with a call to the shape mixin using the @include keyword. Setting a width of 50px, a height of 100px, and the background color orange.
+
+Problem Explanation
+Mixin is one of the great features that let developers use SASS instead of plain CSS, as it allows you to have a Function inside your Stylesheet!
+
+To create a mixin you should follow the following scheme:
+
+@mixin custom-mixin-name($param1, $param2, ....) {
+    // CSS Properties Here...
+}
+And to use it in your element(s), you should use @include followed by your Mixin name, as following:
+
+element {
+    @include custom-mixin-name(value1, value2, ....);
+} -->
+
+<style type='text/scss'>
+  @mixin shape($w, $h, $bg-color) {
+    width: $w;
+    height: $h;
+    background-color: $bg-color;
+  }
+  
+  #square {
+    @include shape(50px, 50px, red);
+  }
+  
+  #rect-a {
+    @include shape(100px, 50px, blue);
+  }
+  
+  #rect-b {
+    @include shape(50px, 100px, orange);
+  }
+  </style>
+  
+  <div id="square"></div>
+  <div id="rect-a"></div>
+  <div id="rect-b"></div>

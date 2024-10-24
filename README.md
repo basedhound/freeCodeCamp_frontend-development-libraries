@@ -182,12 +182,11 @@ Ensuite, vous développerez un panier d'achat et d'autres applications pour comp
 
 ### Projects 🎓 
 
-```
-01. Build a Random Quote Machine ✅
-👉 https://quote-machine-fv.netlify.app
 
-02. Build a Markdown Previewer  
-03. Build a Drum Machine  
-04. Build a JavaScript Calculator  
-05. Build a 25 + 5 Clock  
-```
+1. [Build a Random Quote Machine](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine)
+- https://quote-machine-fv.netlify.app
+
+2.  Build a Markdown Previewer  
+3.  Build a Drum Machine  
+4.  Build a JavaScript Calculator  
+5.  Build a 25 + 5 Clock  

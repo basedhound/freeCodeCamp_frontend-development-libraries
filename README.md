@@ -8,8 +8,6 @@ In the Front End Development Libraries Certification, you'll learn how to style 
 
 Later, you'll build a shopping cart and other applications to learn how to create powerful Single Page Applications (SPAs) with React and Redux.
 
----
-
 `[FR]` Maintenant que vous maîtrisez HTML, CSS et JavaScript, passez à la vitesse supérieure en apprenant quelques-unes des bibliothèques front-end les plus populaires du secteur.
 
 Dans la certification 'Front End Development Libraries', vous découvrirez comment styliser rapidement votre site avec Bootstrap. Vous apprendrez également à ajouter de la logique à vos styles CSS et à les étendre avec Sass.

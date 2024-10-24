@@ -94,14 +94,17 @@ const App = () => {
                 className="social"
                 id="github-quote"
                 title="Post this quote on GitHub!"
-                target="_blank">
+                target="_blank"
+                href="https://github.com/basedhound/freeCodeCamp_frontend-libraries"
+                >
                 <i className="fa fa-github"></i>
               </a>
               <a
                 className="social"
                 id="linkedin-quote"
                 title="Post this quote on LinkedIn!"
-                target="_blank">
+                target="_blank"
+                href="https://www.linkedin.com/in/fvukelic/">
                 <i className="fa fa-linkedin"></i>
               </a>
             </div>

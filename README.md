@@ -184,7 +184,7 @@ Ensuite, vous développerez un panier d'achat et d'autres applications pour comp
 
 ```
 01. Build a Random Quote Machine ✅
-👉 https://quotes-fv.netlify.app
+👉 https://quote-machine-fv.netlify.app
 
 02. Build a Markdown Previewer  
 03. Build a Drum Machine  

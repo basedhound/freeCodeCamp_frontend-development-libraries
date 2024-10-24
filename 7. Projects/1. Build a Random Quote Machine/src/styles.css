@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500");
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #333;
+  color: #333;
+  width: 100vw;
+  height: 100vh;
+}
+
+#quote-box {
+  border-radius: 5px;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.quote-text {
+  text-align: center;
+  width: 450px;
+  padding: 1rem;
+  font-weight: 500;
+  font-size: 1.75rem;
+}
+.quote-text i {
+  font-size: 1em;
+  margin-right: 0.4em;
+}
+
+.quote-author {
+  font-size: 1em;
+  text-align: right;  
+}
+
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+}
+
+.social {
+  border-radius: 5px;
+  color: #fff;
+  background-color: #333;
+  padding: 0.5rem 0.7rem;
+  font-size: 1.2em;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.social:hover {
+  opacity: 0.9;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #333;
+  font-size: 1rem;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 0.9;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #fff;
+}
+.footer a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Animation */
+#wrapper, .social, #new-quote {
+  transition: background 0.5s ease;
+}
+
+.quote-text, .quote-author{
+  transition: color 0.5s ease, opacity 0.5s ease-out;
+}

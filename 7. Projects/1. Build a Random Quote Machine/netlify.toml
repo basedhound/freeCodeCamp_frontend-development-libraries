@@ -1,6 +1,4 @@
-[build]
-  base = "7. Projects/1. Build a Random Quote Machine" 
-  command = "npm run build" 
-  publish = "7. Projects/1. Build a Random Quote Machine/build" 
-  functions = "7. Projects/1. Build a Random Quote Machine/netlify/functions"
-
+[[redirects]]
+from="/*"
+to="/index.html"
+status=200

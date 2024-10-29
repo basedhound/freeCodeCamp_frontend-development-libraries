@@ -14,9 +14,22 @@ Dans la certification 'Front End Development Libraries', vous découvrirez comme
 
 Ensuite, vous développerez un panier d'achat et d'autres applications pour comprendre comment créer des applications monopages (SPA) puissantes avec React et Redux.
 
----
 
+## Projects 🎓 
+```
+1.  Build a Random Quote Machine ✅
+👉 https://quote-machine-fv.netlify.app
+
+2.  Build a Markdown Previewer  
+3.  Build a Drum Machine  
+4.  Build a JavaScript Calculator  
+5.  Build a 25 + 5 Clock  
+```
+>[!NOTE] The projects listed above serve as certifications.
+
+## Content 👨‍🏫
 ### Bootstrap
+> Bootstrap is a front end framework used to design responsive web pages and applications. It takes a mobile-first approach to web development, and includes pre-built CSS styles and classes, plus some JavaScript functionality.
 
 ```
 01. Use Responsive Design with Bootstrap Fluid Containers  
@@ -53,17 +66,18 @@ Ensuite, vous développerez un panier d'achat et d'autres applications pour comp
 ```
 
 ### jQuery
+> jQuery is a JavaScript library designed to simplify DOM manipulation, event handling, animations, and AJAX requests. It provides a straightforward API that works across different browsers, letting developers write less code to achieve more. With jQuery, common tasks like selecting elements, responding to user actions, and creating animations are much easier than using plain JavaScript.
 
 ```
-01. Learn How Script Tags and Document Ready Work  
-02. Target HTML Elements with Selectors Using jQuery  
-03. Target Elements by Class Using jQuery  
-04. Target Elements by id Using jQuery  
-05. Delete Your jQuery Functions  
-06. Target the Same Element with Multiple jQuery Selectors  
-07. Remove Classes from an Element with jQuery  
-08. Change the CSS of an Element Using jQuery  
-09. Disable an Element Using jQuery  
+1.  Learn How Script Tags and Document Ready Work  
+2.  Target HTML Elements with Selectors Using jQuery  
+3.  Target Elements by Class Using jQuery  
+4.  Target Elements by id Using jQuery  
+5.  Delete Your jQuery Functions  
+6.  Target the Same Element with Multiple jQuery Selectors  
+7.  Remove Classes from an Element with jQuery  
+8.  Change the CSS of an Element Using jQuery  
+9.  Disable an Element Using jQuery  
 10. Change Text Inside an Element Using jQuery  
 11. Remove an Element Using jQuery  
 12. Use appendTo to Move Elements with jQuery  
@@ -76,6 +90,7 @@ Ensuite, vous développerez un panier d'achat et d'autres applications pour comp
 ```
 
 ### Sass
+> Sass, or "Syntactically Awesome StyleSheets", is a language extension of CSS. It adds features that aren't available in basic CSS, which make it easier for you to simplify and maintain the style sheets for your projects.
 
 ```
 01. Store Data with Sass Variables  
@@ -90,17 +105,18 @@ Ensuite, vous développerez un panier d'achat et d'autres applications pour comp
 ```
 
 ### React
+> React is a popular JavaScript library for building reusable, component-driven user interfaces for web pages or applications. React combines HTML with JavaScript functionality into its own markup language called JSX. React also makes it easy to manage the flow of data throughout the application.
 
 ```
-01. Create a Simple JSX Element  
-02. Create a Complex JSX Element  
-03. Add Comments in JSX  
-04. Render HTML Elements to the DOM  
-05. Define an HTML Class in JSX  
-06. Learn About Self-Closing JSX Tags  
-07. Create a Stateless Functional Component  
-08. Create a React Component  
-09. Create a Component with Composition  
+1.  Create a Simple JSX Element  
+2.  Create a Complex JSX Element  
+3.  Add Comments in JSX  
+4.  Render HTML Elements to the DOM  
+5.  Define an HTML Class in JSX  
+6.  Learn About Self-Closing JSX Tags  
+7.  Create a Stateless Functional Component  
+8.  Create a React Component  
+9.  Create a Component with Composition  
 10. Use React to Render Nested Components  
 11. Compose React Components  
 12. Render a Class Component to the DOM  
@@ -142,6 +158,7 @@ Ensuite, vous développerez un panier d'achat et d'autres applications pour comp
 ```
 
 ### Redux
+> Redux is a state management library for JavaScript apps, often used with React. It centralizes an app’s state in a single store so components can access and update data consistently. Redux uses actions to describe changes, and reducers to update the state based on these actions. This structure makes state changes predictable and easy to debug, especially in complex applications.
 
 ```
 01. Create a Redux Store  
@@ -164,6 +181,7 @@ Ensuite, vous développerez un panier d'achat et d'autres applications pour comp
 ```
 
 ### React + Redux
+> React-Redux is the official Redux binding library for React. It allows React components to interact with a Redux store, letting components read from and dispatch updates to the centralized state managed by Redux. React-Redux simplifies using Redux with React by efficiently managing component updates and enabling clear, predictable state handling across the app.
 
 ```
 01. Getting Started with React Redux  
@@ -176,16 +194,4 @@ Ensuite, vous développerez un panier d'achat et d'autres applications pour comp
 08. Connect Redux to the Messages App  
 09. Extract Local State into Redux  
 10. Moving Forward From Here 
-```
-
-### Projects 🎓 
-
-```
-01. Build a Random Quote Machine ✅
-👉 https://quote-machine-fv.netlify.app
-
-02. Build a Markdown Previewer  
-03. Build a Drum Machine  
-04. Build a JavaScript Calculator  
-05. Build a 25 + 5 Clock  
 ```

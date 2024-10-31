@@ -25,7 +25,7 @@ Ensuite, vous développerez un panier d'achat et d'autres applications pour comp
 4.  Build a JavaScript Calculator  
 5.  Build a 25 + 5 Clock  
 ```
->[!NOTE] The projects listed above serve as certifications.
+> [!NOTE] The projects listed above serve as certifications.
 
 ## Content 👨‍🏫
 ### Bootstrap

@@ -70,15 +70,15 @@ Ensuite, vous développerez un panier d'achat et d'autres applications pour comp
 > jQuery is a JavaScript library designed to simplify DOM manipulation, event handling, animations, and AJAX requests. It provides a straightforward API that works across different browsers, letting developers write less code to achieve more. With jQuery, common tasks like selecting elements, responding to user actions, and creating animations are much easier than using plain JavaScript.
 
 ```
-1.  Learn How Script Tags and Document Ready Work  
-2.  Target HTML Elements with Selectors Using jQuery  
-3.  Target Elements by Class Using jQuery  
-4.  Target Elements by id Using jQuery  
-5.  Delete Your jQuery Functions  
-6.  Target the Same Element with Multiple jQuery Selectors  
-7.  Remove Classes from an Element with jQuery  
-8.  Change the CSS of an Element Using jQuery  
-9.  Disable an Element Using jQuery  
+01.  Learn How Script Tags and Document Ready Work  
+02.  Target HTML Elements with Selectors Using jQuery  
+03.  Target Elements by Class Using jQuery  
+04.  Target Elements by id Using jQuery  
+05.  Delete Your jQuery Functions  
+06.  Target the Same Element with Multiple jQuery Selectors  
+07.  Remove Classes from an Element with jQuery  
+08.  Change the CSS of an Element Using jQuery  
+09.  Disable an Element Using jQuery  
 10. Change Text Inside an Element Using jQuery  
 11. Remove an Element Using jQuery  
 12. Use appendTo to Move Elements with jQuery  
@@ -109,15 +109,15 @@ Ensuite, vous développerez un panier d'achat et d'autres applications pour comp
 > React is a popular JavaScript library for building reusable, component-driven user interfaces for web pages or applications. React combines HTML with JavaScript functionality into its own markup language called JSX. React also makes it easy to manage the flow of data throughout the application.
 
 ```
-1.  Create a Simple JSX Element  
-2.  Create a Complex JSX Element  
-3.  Add Comments in JSX  
-4.  Render HTML Elements to the DOM  
-5.  Define an HTML Class in JSX  
-6.  Learn About Self-Closing JSX Tags  
-7.  Create a Stateless Functional Component  
-8.  Create a React Component  
-9.  Create a Component with Composition  
+01.  Create a Simple JSX Element  
+02.  Create a Complex JSX Element  
+03.  Add Comments in JSX  
+04.  Render HTML Elements to the DOM  
+05.  Define an HTML Class in JSX  
+06.  Learn About Self-Closing JSX Tags  
+07.  Create a Stateless Functional Component  
+08.  Create a React Component  
+09.  Create a Component with Composition  
 10. Use React to Render Nested Components  
 11. Compose React Components  
 12. Render a Class Component to the DOM  
